@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doaansh | Mobile-cover</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <!-- <link rel="stylesheet" href="mobileCover.css"> -->
+    <link rel="stylesheet" href="mobilechanges.css">
+    <!-- <link rel="stylesheet" href="mobile-dropdown.css"> -->
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" name="" id="search-input" placeholder="Search product name here....">
+            <button id="search">Search</button>
+            <div id="buttons" class="dropdown">
+                <button class="button-value" onclick="toggleDropdown()">filter <span class="arrow-down">&#9660;</span></button>
+                <div id="dropdown-content">
+                  <button class="button-value" onclick="filterProduct('Iphone')">Iphone</button>
+                  <button class="button-value" onclick="filterProduct('Realme')">Realme</button>
+                  <button class="button-value" onclick="filterProduct('Samsung')">Samsung</button>
+                  <button class="button-value" onclick="filterProduct('Oneplus')">Oneplus</button>
+                  <button class="button-value" onclick="filterProduct('iphone476960')">iPhone 476960</button>
+                </div>
+        </div>
+          </div>
+          
+        
+        <div id="products"></div>
+    </div>
+
+    <script src="mobileCover.js"></script>
+</body>
+
+</html>
